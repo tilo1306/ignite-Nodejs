@@ -2,8 +2,6 @@ const { response, request } = require("express");
 const express = require("express");
 const {v4:uuidv4} = require("uuid");
 
-// https://github.com/fabiof2x/ignite-nodejs-finapi/blob/main/src/index.js
-
 const app = express();
 app.use(express.json());
 
